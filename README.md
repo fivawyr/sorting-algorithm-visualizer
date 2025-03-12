@@ -38,14 +38,17 @@ Please read [Code of Conduct](CODE_OF_CONDUCT.md), before submitting pull reques
    git clone https://github.com/fivawyr/sorting-algorithm-visualizer.git  
    cd sorting-algorithm-visualizer  
 2. **Compile the C library**:
-    ### For Linux/macOS:  
+    **For Linux/macOS:**
+   ```bash  
     gcc -shared -o lib/algorithms.so -fPIC src/algorithms.c  
-
-    ### For Windows (using MinGW):  
-    gcc -shared -o lib/algorithms.dll src/algorithms.c  
-3. **Install Python dependencies**
+``
+    **For Windows (using MinGW):**
+```bash  
+    gcc -shared -o lib/algorithms.dll src/algorithms.c
+```
+4. **Install Python dependencies**
     all python moduls (ctypes, os, time, tkinter, random, threading) are standard python bibs, no need for a requirments.txt
-4. **Run the application**
+5. **Run the application**
     python main.py  
 
 ## Usage
